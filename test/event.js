@@ -1,3 +1,3 @@
-const flex = require('../lib/flex')
+const flex = require('../lib/twin')
 
-flex.on
+flex.event.on('start',()=>{console.log("Hello World")})
