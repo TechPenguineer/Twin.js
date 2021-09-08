@@ -1,3 +1,3 @@
 const flex = require('../lib/twin')
 
-flex.event.on('start',()=>{console.log("Hello World")})
+flex.connect(2000,"/help",true)
